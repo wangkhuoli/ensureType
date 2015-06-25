@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+  <title>ensureType</title>
+  <style type="text/css">
+  button {
+    padding: .5rem 1rem;
+    cursor: pointer;
+    background: #ccc;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    outline: 0;
+  }
+  </style>
+</head>
+
+<body>
+  <h3>ensureType目前支持的类型包括：</h3>
+  <h3>array，object，boolean，number，undefined，null，function，string，plainObject</h3>
+  <h3>使用范例：ensureType({}, 'array', ['abc'])</h3>
+  <h3>参数1（必传）：需要检测的对象</h3>
+  <h3>参数2（必传）：类型名称（首字母小写）</h3>
+  <h3>参数3（非必传）：</h3>
+  <h2>其他示例:</h2>
+  <ul>
+    <li>
+      <span>ensureType([], 'array')</span>
+      <button>显示结果</button>
+    </li>
+  </ul>
+  <script type="text/javascript" src="ensureType.js"></script>
+</body>
+
+</html>
